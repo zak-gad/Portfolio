@@ -1,0 +1,14 @@
+.hex1::before {
+    content: "\2B22";
+    color: orange;
+    font-size: 135px;
+  }
+  
+  .hex2::before {
+    content: "\2B22";
+    display: block;
+    color: magenta;
+    font-size: 135px;
+    transform: rotate(-30deg);
+  }
+  

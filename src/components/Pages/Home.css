@@ -28,11 +28,11 @@
   }
   
   .homeImage img {
-    /* width: 20rem;
+    width: 20;
     height: 20rem;
-    object-fit: cover;
-    object-position: top 20px; */
-  
+    object-fit:cover;
+
+    
     align-items: center;
     justify-content: center;
     -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);

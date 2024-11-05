@@ -1,0 +1,31 @@
+.navbar {
+    background-color: #1F2020; /* Dark background color */
+  }
+  
+  .navbar-brand li {
+    color: white; /* Brand name color */
+  }
+  
+  .navbar-menu li {
+    color: white; /* Link color */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  
+  @media (max-width: 768px) {
+    .navbar-menu {
+      display: none;
+    }
+  
+    .navbar-menu.block {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .navbar-menu li {
+      display: block;
+      padding: 10px 0;
+    }
+  }
+  

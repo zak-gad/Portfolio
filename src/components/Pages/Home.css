@@ -1,132 +1,112 @@
 /* src/components/Home.css */
 .alfaContainer {
-    background-color: #2D2D2D;  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    font-family: Arial, sans-serif;
-    padding: 20px;
-  }
-  
-  .braContent {
-    color: white;
-    
-    display: flex;
-    gap: 5rem;
-    height: 70%;
-    max-width: 1300px;
-    width: 100%;
-    /* border: 1px solid #ddd; */
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* width: 0;
-    border-bottom: 30px solid#6c6;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent; */
-  }
-  
-  .homeImage img {
-    width: 20;
-    height: 20rem;
-    object-fit:cover;
+  background-color: #2D2D2D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
 
-    
-    align-items: center;
-    justify-content: center;
-    -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
-    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
-    
-    
-  }
-  
-  .homeImage {
-    display: flex;
-    /* flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2 */
-  }
-  
-  .homeText {
-    flex: 2;
-    padding: 20px;
-    font-family: 'Inter', sans-serif 50,;
-  }
-  
-  .homeText h1 {
+.braContent {
+  color: white;
+  display: flex;
+  gap: 5rem;
+  height: 70%;
+  max-width: 1300px;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-    font-size: 1px;
-    font-family: open sans-serif;
-    color: white;
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
- 
+.homeImage img {
+  width: 20rem;
+  height: 30rem;
+  object-fit: cover;
+  align-items: center;
+  justify-content: center;
+  -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+  clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+}
 
-  .alfa-h2{
-    
-    font-family: inter;
-    font-weight:bold;
-  }
-  .bar-h2{
-    text-shadow: 0px 1px 1px;
-       font-weight:bold;
-  }
+.homeImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .homeText h2 span{
-    color:#B99B6C; 
-    
-  }
-  
-  .homeText p {
-    color: white;
-    line-height: 1.6;
-  }
-  
-  .homeText ul {
-    list-style-type: square;
-    padding-left: 20px;
-  }
-  
-  .homeText li {
-    margin-bottom: 10px;
-  }
+.homeText {
+  flex: 2;
+  padding: 20px;
+  font-family: 'Inter', sans-serif;
+}
 
-  .homeText button{
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
+.homeText h1 {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  margin-bottom: 20px;
+}
 
-  .btn{
+.alfa-h2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+}
 
-    display: flex;
-    padding: 4rem;
-    justify-content: center;
-    gap: 50px;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
+.bra-h2 {
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+}
 
-  .btn-alfa {
-    color: #1F2020;
-    background-color: #B99B6C;
-    text-shadow: 0px 1px 1px;
-  }
+.homeText h2 span {
+  color: #B99B6C;
+}
 
-  .btn-bra {
-    text-shadow: 0px 1px 1px;
-  }
+.homeText p {
+  color: white;
+  line-height: 1.6;
+}
 
+.homeText ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
 
-  
+.homeText li {
+  margin-bottom: 10px;
+}
+
+.homeText button {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.btn-alfa {
+  color: #1F2020;
+  background-color: #B99B6C;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-bra {
+  background-color: #FFF;
+  color: #2D2D2D;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}

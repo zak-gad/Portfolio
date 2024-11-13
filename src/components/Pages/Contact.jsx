@@ -23,7 +23,7 @@ const Contact = () => {
       <h1 className="text-gray-800 text-center mb-5 text-3xl">Contact Me</h1>
       <div className="text-center mb-5 text-gray-600">
         <p>You can reach me at:</p>
-        <p>Email: your.email@example.com</p>
+        <p>Email: gadelkarimzakaria@gmail.com.com</p>
         <p>Phone: (123) 456-7890</p>
         <p>Or send me a message using the form below:</p>
       </div>

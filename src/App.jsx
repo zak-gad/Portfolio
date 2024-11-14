@@ -22,7 +22,7 @@ function App() {
       <Route index element={<Home/>} />
       <Route path="/about" element={<About/>} />
       <Route path="/contact" element={<Contact/>} />
-      <Route path="/experience" element={<Experience/>} />
+      {/* <Route path="/experience" element={<Experience/>} /> */}
       <Route path="/projects" element={<Projects/>} />
 
       <Route path="/hexagon" element={<HexagonGrid />} /> 

@@ -19,11 +19,11 @@ const Navbar = () => {
                 About
             </li>
         </Link>
-       <Link to='/experience'>
+       {/* <Link to='/experience'>
             <li className='text-md transition-all duration-300 p-1 md:p-0 hover:text-customGold'>
                 Experience
             </li>
-       </Link>
+       </Link> */}
        <Link to='/projects'>
        <li className='text-md transition-all duration-300 p-1 md:p-0 hover:text-customGold'>
             Projects

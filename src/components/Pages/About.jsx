@@ -1,13 +1,13 @@
 const About = () => {
   return (
-    <div className="bg-gray-800 flex justify-center items-center min-h-screen font-sans p-5">
-      <div className="flex justify-center items-center w- mt-5">
+    <div className="bg-gray-800 flex justify-center items-center min-h-screen font-sans p-4">
+      <div className="flex justify-center items-center ">
         <img src="/canva.png" alt="profile" className="max-w-full h-auto" />
       </div>
       <div className="text-center">
         <h1 className="text-white mb-5 text-4xl">Hello world</h1>
         <h2 className="text-[#B99B6C] mb-5 text-2xl">One Man, Many Faces</h2>
-        <p className="text-white leading-7">
+        <p className="text-white leading-8">
           My name is Zakaria and I'm a Fullstack Web Developer based in Halle
           (Saale). When I moved to Germany in 2019, I explored various sectors,
           starting as a milker and eventually transitioning to warehouse work.

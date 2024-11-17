@@ -4,7 +4,7 @@ import { Routes, Route, Outlet } from "react-router-dom"
 //Pages
 import Home from "./components/Pages/Home"
 import About from "./components/Pages/About";
-import Experience from "./components/Pages/Experience";
+import Skills from "./components/Pages/Skills";
 import Projects from "./components/Pages/Projects";
 import Contact from "./components/Pages/Contact";
 import HexagonGrid from "./components/Pages/hexagonGrid/HexagonGrid";
@@ -22,7 +22,7 @@ function App() {
       <Route index element={<Home/>} />
       <Route path="/about" element={<About/>} />
       <Route path="/contact" element={<Contact/>} />
-      {/* <Route path="/experience" element={<Experience/>} /> */}
+      <Route path="/skills" element={<Skills/>} />
       <Route path="/projects" element={<Projects/>} />
 
       <Route path="/hexagon" element={<HexagonGrid />} /> 

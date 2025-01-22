@@ -3,18 +3,18 @@ const Projects = () => {
   const projectList = [
     {
       title: 'Project One',
-      description: 'A brief description of Project One.',
-      link: 'https://todoappfrontend-8vbp.onrender.com'
+      description: 'Html, Css, Js, React.',
+      link: 'https://github.com/zak-gad/React-Pro-Cart'
     },
     {
       title: 'Project Two',
-      description: 'A brief description of Project Two.',
-      link: 'http://example.com/project-two'
+      description: 'Html, Css, Js, React.',
+      link: 'https://github.com/zak-gad/Todo-Frontend'
     },
     {
       title: 'Project Three',
-      description: 'A brief description of Project Three.',
-      link: 'http://example.com/project-three'
+      description: 'Html, Sass, Ts, Angular.',
+      link: 'https://github.com/zak-gad/We-Rescue-Cats'
     },
     // more projects 
   ];

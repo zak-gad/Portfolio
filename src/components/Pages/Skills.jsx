@@ -7,10 +7,10 @@ const Experience = () => {
     //   description: 'Developed and maintained web applications using React, Node.js, and MongoDB. Collaborated with cross-functional teams to define and design new features.'
     // },
     {
-      title: 'Junior Developer',
-      company: 'Startup Inc.',
-      duration: 'Jun 2018 - Dec 2019',
-      description: ' HTML, CSS, and JavaScript. Contributed to the improvement of internal tools and processes.'
+      title: 'Study future web development',
+      company: 'DCI digital career institute.',
+      duration: 'Sep 2023 - Nov 2024',
+      description: ' HTML, CSS, and JavaScript, TypeScript, React, Angular, Node.js, Express.js, Git and MongoDB.'
     },
     // {
     //   title: 'Intern',

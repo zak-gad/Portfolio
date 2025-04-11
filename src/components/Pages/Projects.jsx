@@ -8,8 +8,8 @@ const Projects = () => {
     },
     {
       title: 'Project Two',
-      description: 'Html, Css, Js, React.',
-      link: 'https://github.com/zak-gad/Todo-Frontend'
+      description: 'Full-Stack-MERN',
+      link: 'https://github.com/zak-gad/Full-Stack-MERN'
     },
     {
       title: 'Project Three',
